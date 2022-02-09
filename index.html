@@ -1,10 +1,667 @@
-
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<title>My First HTML Page</title>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Abgeena Shabir's Website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png" >
+
 </head>
 
 <body>
-    <h1>testsdhsdk</h1>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Research</a></li>
+            <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
+            <li><a class="smoothscroll" href="#contact">References and Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Abgeena Shabir.</h1>
+            <h3>I am a PMRF fellow at Jamia Millia Islamia doing <span>Nanotechnology</span> research in <span>Graphene Battery</span> technology,
+                <a class="smoothscroll" href="#about">scroll down</a>
+                  to learn more <a class="smoothscroll" href="#about">about me</a>.
+            </h3>
+            <hr />
+            <ul class="social">
+               <li><a href="#"><i class="ai ai-google-scholar ai-2x"></i></a></li>
+               <li><a href="https://doi.org/10.1016/j.jpowsour.2021.229709"><i class="ai ai-elsevier ai-2x"></i></a></li>
+               <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin fa-2x"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+               I have a Bachelors Degree in Engineering in the field of Electronics and Communication and a Masters Degree in 
+               Nanotechnology where I primarily focused on working with Nano-Optical Sensors. My passion and drive towards developing the next-gen, cutting edge 
+               batteries based on Graphene, the wonder material, has driven me to pursue a PhD in Graphene based battery research. My aim is to help develop better,
+               sturdier batteries that charge faster and are more efficient for our Electric future. I was awarded the coveted Prime Minister's Research
+               Fellowship in 2020 which I intend to utilise it in achieving these goals. 
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Abgeena Shabir</span><br>
+						   <span>Bait-ul-Shabir, Wazir Lane<br>
+						         Barbar Shah, Srinagar, 190001<br>
+                           J&K, India
+                     </span><br>
+						   <span>+91-9796780831/ +91-9818166287 </span><br>
+                     <span>abgeenarabbani@gmail.com, abgeena1909907@st.jmi.ac.in</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="documents/CVAbgeena.pdf" class="button" target="_blank"><i class="fa fa-download"></i>Download CV</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Jamia Millia Islamia</h3>
+                  <p class="info"><b>PhD in Nanotechnology at Centre of Nanoscience and Nanotechnology</b><span>&bull;</span> <em class="date">2019 to Present</em></p>
+                     <ul class="info">
+                        <li>Recipient of the prestigious Prime Minister Research fellowship (PMRF).</li>
+                        <li>Awarded the "Innovation in Science Pursuit for Inspired Research"<a href="documents/inspire.pdf" target="_blank">(INSPIRE)</a> fellowship.</li>
+                        <li>Completed PhD coursework with CGPA of 88.25% <a href="documents/coursework_cert.pdf" target="_blank">  Course Certificate</a></li>
+                     </ul>
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Jamia Millia Islamia</h3>
+                  <p class="info"><b>Masters of Technology in Nanotechnology </b><span>&bull;</span> <em class="date">2017 to 2019</em></p>
+
+                  <ul class="info">
+                     <li>Gold medalist , 1st position Holder in MTech with 10 CGPA</li>
+                     
+                     
+                     <li>Six months dissertation on “To study the effect of
+                     Oxygen Plasma treatment on the photoresponse of rGO based
+                     Optical Sensors"
+                     </li>
+                     
+                     <li>Six months dissertation on “To study the morphology
+                     and optical properties of porous Gallium Arsenide Structures.”
+                     </li>
+                  </ul>
+
+               </div>
+            </div>
+
+            <div class="row item">
+
+               <div class="twelve columns">
+   
+                     <h3>University of Kashmir</h3>
+                     <p class="info"><b>Bachelors in Engineering in E&C</b><span>&bull;</span> <em class="date">2015</em></p>
+   
+                     <ul class="info">
+                        <li>Scored 3rd position in BE (E&C) in University of Kashmir</li>
+
+                        <li>Four weeks training at Grid Station Bemina in Electrical Grid Engineering</li>
+
+                        <li>Four weeks training in communication systems at BSNL India</li>
+
+                        <li>6 months dissertation on “Remote operated Domestic Appliances(Home automation) Control by Android Application”.</li>
+                     </ul>
+   
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work Experience</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Meerabai Institute of Technology</h3>
+                  <p class="info">Teaching Assistant <span>&bull;</span> <em class="date">October 2020 - Present</em></p>
+
+                  <p>
+                    Teaching "Electronic Fabrication and Product Design",EFPD paper at the Department of Electronics and Communication
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Jamia Millia Islamia</h3>
+                  <p class="info">Teaching Assistant <span>&bull;</span> <em class="date">Year 2020</em></p>
+
+                  <p>
+                     Taught the paper for "Innovative Technology and Bioscience" <a href="documents/itbs.pdf" target="_blank">(ITBS)</a> paper for 2020-2021 session. <br>
+                     Currently teaching "Fundamentals of Nanotechnology". <br>
+                     At Department of Applied Sciences and Humanities, JMI
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Trainings, Workshops and Conferences</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+               <ul>
+                  <li>GIAN Workshop on “Diffractive Micro-Optics of IR and THz Ranges”held in Jamia Millia
+                     Islamia on 09-13 October,2017.</li>
+                  <li>Member of organising committee at “International Conference on Advanced
+                     Materials(ICAM-2019) ” organised by Centre For Nanoscience and Nanotechnology on 6-7
+                     March 2019.</li>
+                  <li>Cisco Certified Network Course(CCNA)course completed from Techboxx,Kashmir in 2016.</li>
+               </ul>
+            </p>
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Work.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+               <div>
+                  <div class="item-wrap">
+                     <h5>Research Focus</h5>
+
+                     <ul>
+                        <li> 1. Synthesis of high performance silicon/reduced graphene oxide(rGO) nanocomposite based anode materials using facile and scalable techniques.</li>
+                        <li> 2. Characterization techniques such as SEM,TEM, Raman Analysis, XRD,
+                                 AFM,TGA will be performed at every step of material synthesis and fabrication of electrode to investigate and confirm about the various parameters such as surface
+                                 morphology, thickness of nanosheets, carbon and other functional group content,
+                                 interlayer spacing between the sheets and so on.</li>
+                        <li>3.Electrochemical analysis such as cyclic voltammetry(CV),chronopotentiometry(CP),electrochemical impedance spectroscopy(EIS) of batteries will also be performed using a potentiostat.</li>
+                     </ul>
+
+                  </div>
+               </div>
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/rgo.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Graphene</h5>
+                              <p>Reversible synthesis of GO</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/review.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Review Publication</h5>
+                              <p>Trends in Graphene Anodes</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/workshop.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Workshop</h5>
+                              <p>GIAN Workshop</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/lab pic.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Fun at Lab</h5>
+                              <p>Nanotech Lab</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/rgo.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>RGO</h4>
+			      <p>Reversible synthesis of GO: Role of differential bond structure transformation in fine-tuning photodetector response</p>
+               <span class="categories"><i class="fa fa-tag"></i>IOPScience</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://iopscience.iop.org/article/10.1088/1361-6528/aba4cb" target="_blank">Click to see Paper</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/review.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Review</h4>
+			      <p>Recent trends in silicon/graphene nanocomposite anodes for lithium-ion batteries</p>
+               <span class="categories"><i class="fa fa-tag"></i>Elsivier</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://doi.org/10.1016/j.jpowsour.2021.229709" target="_blank">Click to see paper</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/workshop.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Workshop</h4>
+			      <p>GIAN Workshop on “Diffractive Micro-Optics of IR and THz Ranges”held in Jamia Millia
+                  Islamia on 09-13 October,2017.</p>
+               <span class="categories"><i class="fa fa-tag"></i>GIAN</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="documents/gian.pdf" target="_blank">Certificate</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/lab pic.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Lab Work</h4>
+			      <p>Jamia is a great place to work and research and our aim here at CNN, JMI is to produce the best quality work while having fun </p>
+               <span class="categories"><i class="fa fa-tag"></i>Centre for Nanoscience</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.jmi.ac.in/cnn" target="_blank">Click for CNN, JMI Site</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+         </div><!-- modal-04-End-->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>Publications</span></h1>
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2><span class="lead">Publications</span></h2>
+            <p><span class="lead"><a href="https://doi.org/10.1016/j.jpowsour.2021.229709" target="_blank"><br>
+            Recent trends in silicon/graphene nanocomposite anodes for lithium-ion batteries</a> </span></p>
+            <p><span class="lead"><a href="http://dx.doi.org/10.1088/1361-6528/aba4cb" target="_blank"><br>
+            Reversible synthesis of GO: Role of differential bond structure transformation in fine-tuning photodetector response</a> </span></p>
+
+         </div>
+
+         <div class="three columns action">
+
+
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Quotes</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>
+                              Nanotechnology: There’s Plenty of Room at the Bottom
+                           </p>
+                           <cite>Richard Feynman</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>
+                              Nanotechnology is manufacturing with atoms.
+                           </p>
+                           <cite>William Powell</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+ 
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="address">
+                     Contact Abgeena Shabir at <br>
+                     Centre for Nanoscience and  Nanotechnology <br>
+                     Jamia Millia Islamia University, Delhi, 110025 <br>
+                     97967800831, Mail : abgeena1909907@st.jmi.ac.in
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+                  
+               <p>Awarded the Jamia Award of Excellence for 2021</p>
+               <img src="images/award.jpeg">
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>References</h4>
+					   <p class="address">
+						   <a href="https://www.jmi.ac.in/cnn/faculty-members/Prof_Saikh_Safiul_Islam-1828" target="_blank"> S. S. Islam</a><br>
+						   Prof., Centre For Nanoscience and Nanotechnology <br>
+						   JMI, New Delhi<br>
+						   <span>(123) 456-7890</span>
+					   </p>
+                  <p class="address">
+						   <a href="https://www.jmi.ac.in/cnn/faculty-members/Dr_Aurangzeb_Khurram_Hafiz-1968" target="_blank">Dr. Aurangzeb Khurram Hafiz</a><br>
+						   Officiating Director, Centre For Nanoscience and Nanotechnology<br>
+						   JMI, New Delhi<br>
+						   <span>(123) 456-7890</span>
+					   </p>
+                  <p class="address">
+						   <a href="https://www.jmi.ac.in/cnn/faculty-members/Dr_Prabhash_Mishra-3567" target="_blank">Dr. Prabash Mishra</a><br>
+						   Asstt.Prof., Centre For Nanoscience and Nanotechnology<br>
+						   JMI, New Delhi<br>
+						   <span>(123) 456-7890</span>
+					   </p>
+
+				   </div>
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright Reserved</li>
+               <li>Design by <a href="#" title="Mir" target="_blank">Mir</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
